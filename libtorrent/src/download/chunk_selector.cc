@@ -74,7 +74,7 @@ ChunkSelector::cleanup() {
 // Consider if ChunksSelector::not_using_index(...) needs to be
 // modified.
 void
-ChunkSelector::update_prioritiee() {
+ChunkSelector::update_priorities() {
   if (empty())
     return;
 
